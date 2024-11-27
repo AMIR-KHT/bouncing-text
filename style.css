@@ -1,0 +1,33 @@
+html {
+    max-height: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+canvas {
+    background-color: black;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+.control {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.control:hover {
+    transform: none;
+}
